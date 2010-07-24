@@ -1,0 +1,580 @@
+TFTTSH
+v7
+r0
+t300468303.039297
+cCheck dependencies
+cProcessInfoPlistFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist FTTSH-Info.plist
+cCompileXIB /Users/smartkit/Desktop/FTTSH/MainWindow.xib
+cCompileXIB /Users/smartkit/Desktop/FTTSH/SecondView.xib
+cCpResource build/Debug-iphonesimulator/FTTSH.app/chi.png chi.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/expo.png expo.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/favorites.png favorites.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/fttsh.png fttsh.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/guide.png guide.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/he.png he.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/hu.gif hu.gif
+cCpResource build/Debug-iphonesimulator/FTTSH.app/hu.png hu.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/location.png location.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/mai.png mai.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/mi.png mi.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/nearby.png nearby.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/search.png search.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/us.png us.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/you.png you.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/yu.png yu.png
+cCpResource build/Debug-iphonesimulator/FTTSH.app/zhu.png zhu.png
+cProcessPCH /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch.gch FTTSH_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/FTTSH/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH normal i386
+cGenerateDSYMFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
+cTouch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B89F97400000000000000EE
+t1267333492
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h
+c000000004C38905100000000000001D4
+t1278775377
+s468
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m
+c000000004C38905100000000000003B3
+t1278775377
+s947
+i"FTTSHAppDelegate.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.h
+c000000004C38905100000000000000E9
+t1278775377
+s233
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m
+c000000004C38905100000000000005AE
+t1278775377
+s1454
+i"FirstViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch
+c000000004C38905100000000000000B3
+t1278775377
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/MainWindow.xib
+c000000004C389051000000000000420D
+t1278775377
+s16909
+
+N/Users/smartkit/Desktop/FTTSH/SecondView.xib
+c000000004C38905100000000000022ED
+t1278775377
+s8941
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
+t1278775503
+s816
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM
+t1278775502
+s102
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
+t1278775502
+s19288
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist
+t1278775492
+s556
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/MainWindow.nib
+t1278775494
+s4043
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/PkgInfo
+t1278775492
+s8
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/SecondView.nib
+t1278775495
+s2510
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/chi.png
+t1278775496
+s2290
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/expo.png
+t1278775496
+s2223
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/favorites.png
+t1278775496
+s1788
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/fttsh.png
+t1278775496
+s4212
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/guide.png
+t1278775496
+s1911
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/he.png
+t1278775496
+s2535
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/hu.gif
+t1278775496
+s4662
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/hu.png
+t1278775496
+s2663
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/location.png
+t1278775495
+s1701
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/mai.png
+t1278775496
+s2501
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/mi.png
+t1278775496
+s2920
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/nearby.png
+t1278775496
+s2634
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/search.png
+t1278775496
+s2322
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/us.png
+t1278775496
+s4212
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/you.png
+t1278775496
+s2600
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/yu.png
+t1278775496
+s2638
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/zhu.png
+t1278775496
+s2585
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSH.LinkFileList
+c000000004C3890C40000000000000162
+t1278775492
+s354
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o
+t1278775500
+s40808
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o
+t1278775500
+s29904
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o
+t1278775499
+s5940
+
+N/Users/smartkit/Desktop/FTTSH/chi.png
+c000000004C15FCE200000000000008F2
+t1276509410
+s2290
+
+N/Users/smartkit/Desktop/FTTSH/expo.png
+c000000004C15FCE200000000000008AF
+t1276509410
+s2223
+
+N/Users/smartkit/Desktop/FTTSH/favorites.png
+c000000004C15FCE300000000000006FC
+t1276509411
+s1788
+
+N/Users/smartkit/Desktop/FTTSH/fttsh.png
+c000000004C15FCE20000000000001074
+t1276509410
+s4212
+
+N/Users/smartkit/Desktop/FTTSH/guide.png
+c000000004C15FCE20000000000000777
+t1276509410
+s1911
+
+N/Users/smartkit/Desktop/FTTSH/he.png
+c000000004C15FCE200000000000009E7
+t1276509410
+s2535
+
+N/Users/smartkit/Desktop/FTTSH/hu.gif
+c000000004C15EB6A0000000000001236
+t1276504938
+s4662
+
+N/Users/smartkit/Desktop/FTTSH/hu.png
+c000000004C15FCE20000000000000A67
+t1276509410
+s2663
+
+N/Users/smartkit/Desktop/FTTSH/location.png
+c000000004C15FCE300000000000006A5
+t1276509411
+s1701
+
+N/Users/smartkit/Desktop/FTTSH/mai.png
+c000000004C15FCE200000000000009C5
+t1276509410
+s2501
+
+N/Users/smartkit/Desktop/FTTSH/main.m
+c000000004C3890510000000000000164
+t1278775377
+s356
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/mi.png
+c000000004C15EF060000000000000B68
+t1276505862
+s2920
+
+N/Users/smartkit/Desktop/FTTSH/nearby.png
+c000000004C15FCE30000000000000A4A
+t1276509411
+s2634
+
+N/Users/smartkit/Desktop/FTTSH/search.png
+c000000004C15FCE30000000000000912
+t1276509411
+s2322
+
+N/Users/smartkit/Desktop/FTTSH/us.png
+c000000004C15FD540000000000001074
+t1276509524
+s4212
+
+N/Users/smartkit/Desktop/FTTSH/you.png
+c000000004C15FCE20000000000000A28
+t1276509410
+s2600
+
+N/Users/smartkit/Desktop/FTTSH/yu.png
+c000000004C15FCE20000000000000A4E
+t1276509410
+s2638
+
+N/Users/smartkit/Desktop/FTTSH/zhu.png
+c000000004C15FCE20000000000000A19
+t1276509410
+s2585
+
+N/var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch.gch
+t1278775498
+s13034960
+
+NFTTSH-Info.plist
+c000000004C389051000000000000038D
+t1278775377
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300468292#300468292#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300468299.718675
+e300468300.128828
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o
+x/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m300468299#300468300#0(0"0(0#0#56"/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m4300885448#1752"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300468300.128935
+e300468300.500158
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m300468300#300468300#0(0"0(0#0#59"/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m4300885448#1758"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/FTTSH/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300468299.011595
+e300468299.718570
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o
+x/Users/smartkit/Desktop/FTTSH/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/smartkit/Desktop/FTTSH/main.m300468299#300468299#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/main.m4300885448#1720"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/main.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/MainWindow.xib
+s300468292.856762
+e300468294.508647
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib300468292#300468294#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#44"/Users/smartkit/Desktop/FTTSH/MainWindow.xib4300885448#453"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/MainWindow.nib /Users/smartkit/Desktop/FTTSH/MainWindow.xib0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/SecondView.xib
+s300468294.508922
+e300468295.748701
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/SecondView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB SecondView.xib300468294#300468295#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#44"/Users/smartkit/Desktop/FTTSH/SecondView.xib4300885448#453"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/SecondView.nib /Users/smartkit/Desktop/FTTSH/SecondView.xib0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/chi.png chi.png
+s300468295.748799
+e300468296.192504
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/chi.png
+xchi.png
+lSLF07#2@12"Copy chi.png300468295#300468296#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/chi.png4300885448#422"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/chi.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/expo.png expo.png
+s300468295.751523
+e300468296.178184
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/expo.png
+xexpo.png
+lSLF07#2@13"Copy expo.png300468295#300468296#0(0"0(0#0#38"/Users/smartkit/Desktop/FTTSH/expo.png4300885448#423"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/expo.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/favorites.png favorites.png
+s300468295.754179
+e300468296.183829
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/favorites.png
+xfavorites.png
+lSLF07#2@18"Copy favorites.png300468295#300468296#0(0"0(0#0#43"/Users/smartkit/Desktop/FTTSH/favorites.png4300885448#428"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/favorites.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/fttsh.png fttsh.png
+s300468295.757061
+e300468296.123526
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/fttsh.png
+xfttsh.png
+lSLF07#2@14"Copy fttsh.png300468295#300468296#0(0"0(0#0#39"/Users/smartkit/Desktop/FTTSH/fttsh.png4300885448#424"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/fttsh.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/guide.png guide.png
+s300468295.760019
+e300468296.067018
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/guide.png
+xguide.png
+lSLF07#2@14"Copy guide.png300468295#300468296#0(0"0(0#0#39"/Users/smartkit/Desktop/FTTSH/guide.png4300885448#424"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/guide.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/he.png he.png
+s300468295.762852
+e300468296.128060
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/he.png
+xhe.png
+lSLF07#2@11"Copy he.png300468295#300468296#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/he.png4300885448#421"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/he.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/hu.gif hu.gif
+s300468295.765875
+e300468296.092646
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/hu.gif
+xhu.gif
+lSLF07#2@11"Copy hu.gif300468295#300468296#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/hu.gif4300885448#421"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/hu.gif /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/hu.png hu.png
+s300468295.770522
+e300468296.155840
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/hu.png
+xhu.png
+lSLF07#2@11"Copy hu.png300468295#300468296#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/hu.png4300885448#421"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/hu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/location.png location.png
+s300468295.775326
+e300468295.905736
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/location.png
+xlocation.png
+lSLF07#2@17"Copy location.png300468295#300468295#0(0"0(0#0#42"/Users/smartkit/Desktop/FTTSH/location.png4300885448#427"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/location.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/mai.png mai.png
+s300468295.778633
+e300468296.189975
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/mai.png
+xmai.png
+lSLF07#2@12"Copy mai.png300468295#300468296#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/mai.png4300885448#422"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/mai.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/mi.png mi.png
+s300468295.905836
+e300468296.025071
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/mi.png
+xmi.png
+lSLF07#2@11"Copy mi.png300468295#300468296#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/mi.png4300885448#421"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/mi.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/nearby.png nearby.png
+s300468296.025283
+e300468296.160557
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/nearby.png
+xnearby.png
+lSLF07#2@15"Copy nearby.png300468296#300468296#0(0"0(0#0#40"/Users/smartkit/Desktop/FTTSH/nearby.png4300885448#425"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/nearby.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/search.png search.png
+s300468296.067115
+e300468296.219770
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/search.png
+xsearch.png
+lSLF07#2@15"Copy search.png300468296#300468296#0(0"0(0#0#40"/Users/smartkit/Desktop/FTTSH/search.png4300885448#425"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/search.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/us.png us.png
+s300468296.092806
+e300468296.262193
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/us.png
+xus.png
+lSLF07#2@11"Copy us.png300468296#300468296#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/us.png4300885448#421"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/us.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/you.png you.png
+s300468296.123622
+e300468296.255332
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/you.png
+xyou.png
+lSLF07#2@12"Copy you.png300468296#300468296#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/you.png4300885448#422"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/you.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/yu.png yu.png
+s300468296.128140
+e300468296.245767
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/yu.png
+xyu.png
+lSLF07#2@11"Copy yu.png300468296#300468296#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/yu.png4300885448#421"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/yu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/zhu.png zhu.png
+s300468296.155934
+e300468296.234276
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/FTTSH.app/zhu.png
+xzhu.png
+lSLF07#2@12"Copy zhu.png300468296#300468296#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/zhu.png4300885448#422"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/zhu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
+CGenerateDSYMFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
+s300468302.398098
+e300468302.955696
+r1
+xGenerateDSYMFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/FTTSH.app.dSYM build/Debug-iphonesimulator/FTTSH.app/FTTSH300468302#300468302#0(0"0(0#0#73"/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH4300885448#350"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM0#
+
+CLd /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH normal i386
+s300468300.500255
+e300468302.397815
+r1
+xLd
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
+xnormal
+xi386
+lSLF07#2@78"Link /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH300468300#300468302#0(0"0(0#0#0"4300885448#809"    cd /Users/smartkit/Desktop/FTTSH    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSH.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH0#
+
+CProcessInfoPlistFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist FTTSH-Info.plist
+s300468292.748326
+e300468292.856590
+r1
+xProcessInfoPlistFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist
+xFTTSH-Info.plist
+lSLF07#2@24"Process FTTSH-Info.plist300468292#300468292#0(0"0(0#0#46"/Users/smartkit/Desktop/FTTSH/FTTSH-Info.plist30681223440564324#446"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FTTSH-Info.plist -genpkginfo /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist0#
+
+CProcessPCH /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch.gch FTTSH_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300468296.262398
+e300468299.011342
+r1
+xProcessPCH
+x/var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch.gch
+xFTTSH_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile FTTSH_Prefix.pch300468296#300468299#0(0"0(0#0#46"/Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch4300885448#1623"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -c /Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch -o /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch.gch0#
+
+CTouch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
+s300468302.955794
+e300468303.039112
+r1
+xTouch
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
+lSLF07#2@73"Touch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app300468302#300468303#0(0"0(0#0#0"4300885448#258"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+
