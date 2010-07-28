@@ -42,6 +42,7 @@
 		A46B31E511E8C80B0061F7F1 /* yu.png in Resources */ = {isa = PBXBuildFile; fileRef = A46B31D411E8C80B0061F7F1 /* yu.png */; };
 		A46B31E611E8C80B0061F7F1 /* zhu.png in Resources */ = {isa = PBXBuildFile; fileRef = A46B31D511E8C80B0061F7F1 /* zhu.png */; };
 		A46EA02E11FFD0B80075AACE /* CoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */; };
+		A46EA08911FFD78D0075AACE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A46EA08811FFD78D0075AACE /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		A46B31D411E8C80B0061F7F1 /* yu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yu.png; sourceTree = "<group>"; };
 		A46B31D511E8C80B0061F7F1 /* zhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhu.png; sourceTree = "<group>"; };
 		A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		A46EA08811FFD78D0075AACE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 		A46B31C411E8C7EF0061F7F1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				A46EA08811FFD78D0075AACE /* logo.png */,
 				A46B31C511E8C80A0061F7F1 /* chi.png */,
 				A46B31C611E8C80A0061F7F1 /* expo.png */,
 				A46B31C711E8C80A0061F7F1 /* favorites.png */,
@@ -287,6 +290,7 @@
 				A468E96211E9651500757DE6 /* SearchViewController.xib in Resources */,
 				A468E96711E9653600757DE6 /* FavouriteViewController.xib in Resources */,
 				A468E96C11E9655000757DE6 /* LocationViewController.xib in Resources */,
+				A46EA08911FFD78D0075AACE /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
