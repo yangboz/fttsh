@@ -41,6 +41,7 @@
 		A46B31E411E8C80B0061F7F1 /* you.png in Resources */ = {isa = PBXBuildFile; fileRef = A46B31D311E8C80A0061F7F1 /* you.png */; };
 		A46B31E511E8C80B0061F7F1 /* yu.png in Resources */ = {isa = PBXBuildFile; fileRef = A46B31D411E8C80B0061F7F1 /* yu.png */; };
 		A46B31E611E8C80B0061F7F1 /* zhu.png in Resources */ = {isa = PBXBuildFile; fileRef = A46B31D511E8C80B0061F7F1 /* zhu.png */; };
+		A46EA02E11FFD0B80075AACE /* CoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		A46B31D311E8C80A0061F7F1 /* you.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = you.png; sourceTree = "<group>"; };
 		A46B31D411E8C80B0061F7F1 /* yu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yu.png; sourceTree = "<group>"; };
 		A46B31D511E8C80B0061F7F1 /* zhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhu.png; sourceTree = "<group>"; };
+		A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,6 +217,7 @@
 		A46C1F7011F148F200376927 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				A468E96111E9651500757DE6 /* SearchViewController.m in Sources */,
 				A468E96611E9653600757DE6 /* FavouriteViewController.m in Sources */,
 				A468E96B11E9655000757DE6 /* LocationViewController.m in Sources */,
+				A46EA02E11FFD0B80075AACE /* CoreData.xcdatamodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
