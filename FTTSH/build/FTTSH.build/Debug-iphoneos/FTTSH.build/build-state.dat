@@ -1,0 +1,993 @@
+TFTTSH
+v7
+r0
+t302019718.764340
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FTTSH.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/Info.plist FTTSH-Info.plist
+cCompileXIB /Users/smartkit/Desktop/FTTSH/MainWindow.xib
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/chi.png chi.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/expo.png expo.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/favorites.png favorites.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/fttsh.png fttsh.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/guide.png guide.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/he.png he.png
+cCpResource build/Debug-iphoneos/FTTSH.app/hu.gif hu.gif
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/hu.png hu.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/location.png location.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mai.png mai.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mi.png mi.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/nearby.png nearby.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/search.png search.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/us.png us.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/you.png you.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/yu.png yu.png
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/zhu.png zhu.png
+cCompileXIB /Users/smartkit/Desktop/FTTSH/GuideViewController.xib
+cCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.xib
+cCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib
+cCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.xib
+cCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib
+cCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/logo.png logo.png
+cProcessPCH /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch.gch FTTSH_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/CoreData.mom /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/main.o /Users/smartkit/Desktop/FTTSH/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSHAppDelegate.o /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FirstViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/GuideViewController.o /Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NearbyViewController.o /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/SearchViewController.o /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FavouriteViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/LocationViewController.o /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH normal armv6
+cGenerateDSYMFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app.dSYM /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH
+cTouch /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+cCodeSign /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk
+c000000004B2FA6BF0000000000000110
+t1261414079
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+c000000004B2B3B9F00000000000001E5
+t1261124511
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B2B555E0000000000296690
+t1261131102
+s2713232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B2B5545000000000000046B
+t1261131077
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B537900000000005F4900
+t1261130617
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B551F0000000000501370
+t1261131039
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B54F40000000000001355
+t1261130996
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61610000000000000788
+t1261134177
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B63DA0000000001B3F450
+t1261134810
+s28570704
+
+N/Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m
+c000000004C4F9DDF0000000000000578
+t1280286175
+s1400
+i"GuideViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h
+c000000004C50E2BD00000000000003BA
+t1280369341
+s954
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m
+c000000004C50E39C0000000000001776
+t1280369564
+s6006
+i"FTTSHAppDelegate.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.h
+c000000004C4F9DD500000000000000F1
+t1280286165
+s241
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m
+c000000004C4F9DD50000000000000584
+t1280286165
+s1412
+i"FavouriteViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.xib
+c000000004C4F9DD50000000000001880
+t1280286165
+s6272
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.h
+c000000004C4F9DD500000000000000E9
+t1280286165
+s233
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m
+c000000004C50313F00000000000005AE
+t1280323903
+s1454
+i"FirstViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.h
+c000000004C4F9DD500000000000000EF
+t1280286165
+s239
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m
+c000000004C50E2120000000000000583
+t1280369170
+s1411
+i"LocationViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib
+c000000004C4F9DD5000000000000187D
+t1280286165
+s6269
+
+N/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.h
+c000000004C4F9DD500000000000000EB
+t1280286165
+s235
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m
+c000000004C4F9DD5000000000000057B
+t1280286165
+s1403
+i"NearbyViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.xib
+c000000004C4F9DD50000000000001877
+t1280286165
+s6263
+
+N/Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.h
+c000000004C50D51100000000000001A6
+t1280365841
+s422
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m
+c000000004C50D5110000000000000130
+t1280365841
+s304
+i"NeighborhoodInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POICategory.h
+c000000004C50D5110000000000000218
+t1280365841
+s536
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POICategory.m
+c000000004C50D511000000000000015D
+t1280365841
+s349
+i"POICategory.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIImages.h
+c000000004C50D51100000000000001B7
+t1280365841
+s439
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIImages.m
+c000000004C50D511000000000000011A
+t1280365841
+s282
+i"POIImages.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIInfo.h
+c000000004C50D5110000000000000469
+t1280365841
+s1129
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m
+c000000004C50D511000000000000022A
+t1280365841
+s554
+i"POIInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.h
+c000000004C50D5110000000000000195
+t1280365841
+s405
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m
+c000000004C50D511000000000000011E
+t1280365841
+s286
+i"POINeighborhood.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.h
+c000000004C4F9DD500000000000000EB
+t1280286165
+s235
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m
+c000000004C4F9DD5000000000000057B
+t1280286165
+s1403
+i"SearchViewController.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib
+c000000004C4F9DD50000000000001877
+t1280286165
+s6263
+
+N/Users/smartkit/Desktop/FTTSH/Classes/UserInfo.h
+c000000004C50D5110000000000000179
+t1280365841
+s377
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m
+c000000004C50D51100000000000000FB
+t1280365841
+s251
+i"UserInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
+c000000004C503B7B00000000000000AA
+t1280326523
+s170
+
+N/Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch
+c000000004C4F9DE000000000000000B3
+t1280286176
+s179
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/GuideViewController.h
+c000000004C4F9DDF00000000000000EE
+t1280286175
+s238
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/GuideViewController.xib
+c000000004C4FA3240000000000008DAB
+t1280287524
+s36267
+
+N/Users/smartkit/Desktop/FTTSH/MainWindow.xib
+c000000004C4F9DE00000000000006C91
+t1280286176
+s27793
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+t1280326918
+s1122
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app.dSYM
+t1280326724
+s102
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/CoreData.mom
+t1280326719
+s6142
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH
+t1280326724
+s26144
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FavouriteViewController.nib
+t1280326717
+s1106
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/GuideViewController.nib
+t1280326714
+s5600
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/Info.plist
+t1280326705
+s732
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/LocationViewController.nib
+t1280326717
+s1106
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/MainWindow.nib
+t1280326709
+s3405
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/NearbyViewController.nib
+t1280326715
+s1106
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/PkgInfo
+t1280326705
+s8
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/ResourceRules.plist
+t1280326705
+s485
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/SearchViewController.nib
+t1280326716
+s1106
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/chi.png
+t1280326710
+s2611
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/expo.png
+t1280326710
+s2361
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/favorites.png
+t1280326710
+s1919
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/fttsh.png
+t1280326710
+s5029
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/guide.png
+t1280326710
+s2149
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/he.png
+t1280326710
+s2872
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/hu.gif
+t1280326711
+s4662
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/hu.png
+t1280326711
+s2534
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/location.png
+t1280326711
+s1969
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/logo.png
+t1280326717
+s5085
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mai.png
+t1280326711
+s2871
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mi.png
+t1280326711
+s2909
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/nearby.png
+t1280326711
+s2982
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/search.png
+t1280326711
+s2441
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/us.png
+t1280326712
+s5029
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/you.png
+t1280326712
+s2979
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/yu.png
+t1280326712
+s3088
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/zhu.png
+t1280326712
+s2997
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSH.LinkFileList
+c000000004C503C3100000000000003A7
+t1280326705
+s935
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSHAppDelegate.o
+t1280326720
+s43532
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FavouriteViewController.o
+t1280326722
+s29516
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FirstViewController.o
+t1280326721
+s29456
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/GuideViewController.o
+t1280326721
+s30944
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/LocationViewController.o
+t1280326723
+s33756
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NearbyViewController.o
+t1280326721
+s29472
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NeighborhoodInfo.o
+t2
+s0
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POICategory.o
+t2
+s0
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POIImages.o
+t2
+s0
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POIInfo.o
+t2
+s0
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POINeighborhood.o
+t2
+s0
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/SearchViewController.o
+t1280326722
+s29472
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/UserInfo.o
+t2
+s0
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/main.o
+t1280326720
+s6532
+
+N/Users/smartkit/Desktop/FTTSH/chi.png
+c000000004C4F9DDF00000000000008F2
+t1280286175
+s2290
+
+N/Users/smartkit/Desktop/FTTSH/expo.png
+c000000004C4F9DE000000000000008AF
+t1280286176
+s2223
+
+N/Users/smartkit/Desktop/FTTSH/favorites.png
+c000000004C4F9DDF00000000000006FC
+t1280286175
+s1788
+
+N/Users/smartkit/Desktop/FTTSH/fttsh.png
+c000000004C4F9DE00000000000001074
+t1280286176
+s4212
+
+N/Users/smartkit/Desktop/FTTSH/guide.png
+c000000004C4F9DDF0000000000000777
+t1280286175
+s1911
+
+N/Users/smartkit/Desktop/FTTSH/he.png
+c000000004C4F9DDF00000000000009E7
+t1280286175
+s2535
+
+N/Users/smartkit/Desktop/FTTSH/hu.gif
+c000000004C4F9DDF0000000000001236
+t1280286175
+s4662
+
+N/Users/smartkit/Desktop/FTTSH/hu.png
+c000000004C4F9DE00000000000000A67
+t1280286176
+s2663
+
+N/Users/smartkit/Desktop/FTTSH/location.png
+c000000004C4F9DE000000000000006A5
+t1280286176
+s1701
+
+N/Users/smartkit/Desktop/FTTSH/logo.png
+c000000004C4F9FDB0000000000001502
+t1280286683
+s5378
+
+N/Users/smartkit/Desktop/FTTSH/mai.png
+c000000004C4F9DE000000000000009C5
+t1280286176
+s2501
+
+N/Users/smartkit/Desktop/FTTSH/main.m
+c000000004C4F9DDF0000000000000164
+t1280286175
+s356
+i<UIKit/UIKit.h>
+
+N/Users/smartkit/Desktop/FTTSH/mi.png
+c000000004C4F9DE00000000000000B68
+t1280286176
+s2920
+
+N/Users/smartkit/Desktop/FTTSH/nearby.png
+c000000004C4F9DE00000000000000A4A
+t1280286176
+s2634
+
+N/Users/smartkit/Desktop/FTTSH/search.png
+c000000004C4F9DE00000000000000912
+t1280286176
+s2322
+
+N/Users/smartkit/Desktop/FTTSH/us.png
+c000000004C4F9DE00000000000001074
+t1280286176
+s4212
+
+N/Users/smartkit/Desktop/FTTSH/you.png
+c000000004C4F9DE00000000000000A28
+t1280286176
+s2600
+
+N/Users/smartkit/Desktop/FTTSH/yu.png
+c000000004C4F9DDF0000000000000A4E
+t1280286175
+s2638
+
+N/Users/smartkit/Desktop/FTTSH/zhu.png
+c000000004C4F9DE00000000000000A19
+t1280286176
+s2585
+
+N/var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch.gch
+t1280326719
+s7876792
+
+NFTTSH-Info.plist
+c000000004C4FA01F0000000000000395
+t1280286751
+s917
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302019717#302019717#0(0"0(0#1#0"4300885448#0"0#
+
+CCodeSign /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+s302019717.627796
+e302019718.764279
+r1
+xCodeSign
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+o/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app: replacing existing signature
+lSLF07#2@39"CodeSign build/Debug-iphoneos/FTTSH.app302019717#302019718#0(91"/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app: replacing existing signature0(0#0#60"/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app4300885448#471"    cd /Users/smartkit/Desktop/FTTSH    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer" --resource-rules=/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/ResourceRules.plist /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSHAppDelegate.o /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019520.219412
+e302019520.701917
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSHAppDelegate.o
+x/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m302019520#302019520#0(0"0(0#0#56"/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m4300885448#1621"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSHAppDelegate.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FavouriteViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019522.300301
+e302019522.711229
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FavouriteViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m302019522#302019522#0(0"0(0#0#63"/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m4300885448#1635"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FavouriteViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FirstViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019520.702029
+e302019521.089953
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FirstViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m302019520#302019521#0(0"0(0#0#59"/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m4300885448#1627"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FirstViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/GuideViewController.o /Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019521.090194
+e302019521.500624
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/GuideViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m302019521#302019521#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m4300885448#1630"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/GuideViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/LocationViewController.o /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019522.711510
+e302019523.231055
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/LocationViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m302019522#302019523#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m4300885448#1633"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/LocationViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NearbyViewController.o /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019521.500733
+e302019521.909448
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NearbyViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m302019521#302019521#0(0"0(0#0#60"/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m4300885448#1629"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NearbyViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/NeighborhoodInfo.o /Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POICategory.o /Users/smartkit/Desktop/FTTSH/Classes/POICategory.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POIImages.o /Users/smartkit/Desktop/FTTSH/Classes/POIImages.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POIInfo.o /Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/POINeighborhood.o /Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/SearchViewController.o /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019521.909559
+e302019522.300190
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/SearchViewController.o
+x/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m302019521#302019522#0(0"0(0#0#60"/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m4300885448#1629"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/SearchViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/UserInfo.o /Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/main.o /Users/smartkit/Desktop/FTTSH/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019519.791225
+e302019520.219302
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/main.o
+x/Users/smartkit/Desktop/FTTSH/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/smartkit/Desktop/FTTSH/main.m302019519#302019520#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/main.m4300885448#1589"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/main.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.xib
+s302019516.267502
+e302019517.080629
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.xib
+lSLF07#2@46"CompileXIB Classes/FavouriteViewController.xib302019516#302019517#0(0"0(0#0#65"/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.xib4300885448#473"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FavouriteViewController.nib /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.xib0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib
+s302019517.080729
+e302019517.825513
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib
+lSLF07#2@45"CompileXIB Classes/LocationViewController.xib302019517#302019517#0(0"0(0#0#64"/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib4300885448#471"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/LocationViewController.nib /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.xib
+s302019514.522415
+e302019515.447556
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.xib
+lSLF07#2@43"CompileXIB Classes/NearbyViewController.xib302019514#302019515#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.xib4300885448#467"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/NearbyViewController.nib /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.xib0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib
+s302019515.447654
+e302019516.267206
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib
+lSLF07#2@43"CompileXIB Classes/SearchViewController.xib302019515#302019516#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib4300885448#467"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/SearchViewController.nib /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/GuideViewController.xib
+s302019512.447347
+e302019514.522102
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/GuideViewController.xib
+o2010-07-28 22:18:33.867 ibtool[527:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+lSLF07#2@34"CompileXIB GuideViewController.xib302019512#302019514#0(121"2010-07-28 22:18:33.867 ibtool[527:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs0(0#0#53"/Users/smartkit/Desktop/FTTSH/GuideViewController.xib4300885448#457"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/GuideViewController.nib /Users/smartkit/Desktop/FTTSH/GuideViewController.xib0#
+
+CCompileXIB /Users/smartkit/Desktop/FTTSH/MainWindow.xib
+s302019505.533752
+e302019509.182066
+r1
+xCompileXIB
+x/Users/smartkit/Desktop/FTTSH/MainWindow.xib
+o2010-07-28 22:18:27.707 ibtool[475:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+lSLF07#2@25"CompileXIB MainWindow.xib302019505#302019509#0(121"2010-07-28 22:18:27.707 ibtool[475:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs0(0#0#44"/Users/smartkit/Desktop/FTTSH/MainWindow.xib4300885448#439"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/MainWindow.nib /Users/smartkit/Desktop/FTTSH/MainWindow.xib0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/chi.png chi.png
+s302019509.182390
+e302019510.289792
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/chi.png
+xchi.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/FTTSH.app/chi.png chi.png302019509#302019510#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/chi.png31525678434287664#525"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/chi.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/chi.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/expo.png expo.png
+s302019510.289903
+e302019510.438459
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/expo.png
+xexpo.png
+lSLF07#2@60"CopyPNGFile build/Debug-iphoneos/FTTSH.app/expo.png expo.png302019510#302019510#0(0"0(0#0#38"/Users/smartkit/Desktop/FTTSH/expo.png4300885448#527"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/expo.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/expo.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/favorites.png favorites.png
+s302019510.438560
+e302019510.562026
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/favorites.png
+xfavorites.png
+lSLF07#2@70"CopyPNGFile build/Debug-iphoneos/FTTSH.app/favorites.png favorites.png302019510#302019510#0(0"0(0#0#43"/Users/smartkit/Desktop/FTTSH/favorites.png4300885448#537"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/favorites.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/favorites.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/fttsh.png fttsh.png
+s302019510.562152
+e302019510.699959
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/fttsh.png
+xfttsh.png
+lSLF07#2@62"CopyPNGFile build/Debug-iphoneos/FTTSH.app/fttsh.png fttsh.png302019510#302019510#0(0"0(0#0#39"/Users/smartkit/Desktop/FTTSH/fttsh.png4300885448#529"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/fttsh.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/fttsh.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/guide.png guide.png
+s302019510.700221
+e302019510.837630
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/guide.png
+xguide.png
+lSLF07#2@62"CopyPNGFile build/Debug-iphoneos/FTTSH.app/guide.png guide.png302019510#302019510#0(0"0(0#0#39"/Users/smartkit/Desktop/FTTSH/guide.png4300885448#529"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/guide.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/guide.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/he.png he.png
+s302019510.837729
+e302019510.978505
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/he.png
+xhe.png
+lSLF07#2@56"CopyPNGFile build/Debug-iphoneos/FTTSH.app/he.png he.png302019510#302019510#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/he.png4300885448#523"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/he.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/he.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/hu.png hu.png
+s302019511.004350
+e302019511.197743
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/hu.png
+xhu.png
+lSLF07#2@56"CopyPNGFile build/Debug-iphoneos/FTTSH.app/hu.png hu.png302019511#302019511#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/hu.png4300885448#523"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/hu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/hu.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/location.png location.png
+s302019511.197884
+e302019511.322807
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/location.png
+xlocation.png
+lSLF07#2@68"CopyPNGFile build/Debug-iphoneos/FTTSH.app/location.png location.png302019511#302019511#0(0"0(0#0#42"/Users/smartkit/Desktop/FTTSH/location.png4300885448#535"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/location.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/location.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/logo.png logo.png
+s302019517.825779
+e302019517.952619
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/logo.png
+xlogo.png
+lSLF07#2@60"CopyPNGFile build/Debug-iphoneos/FTTSH.app/logo.png logo.png302019517#302019517#0(0"0(0#0#38"/Users/smartkit/Desktop/FTTSH/logo.png4300885448#527"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/logo.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/logo.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mai.png mai.png
+s302019511.322911
+e302019511.462802
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mai.png
+xmai.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/FTTSH.app/mai.png mai.png302019511#302019511#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/mai.png4300885448#525"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/mai.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mai.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mi.png mi.png
+s302019511.462902
+e302019511.621822
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mi.png
+xmi.png
+lSLF07#2@56"CopyPNGFile build/Debug-iphoneos/FTTSH.app/mi.png mi.png302019511#302019511#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/mi.png4300885448#523"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/mi.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/mi.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/nearby.png nearby.png
+s302019511.621928
+e302019511.739547
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/nearby.png
+xnearby.png
+lSLF07#2@64"CopyPNGFile build/Debug-iphoneos/FTTSH.app/nearby.png nearby.png302019511#302019511#0(0"0(0#0#40"/Users/smartkit/Desktop/FTTSH/nearby.png4300885448#531"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/nearby.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/nearby.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/search.png search.png
+s302019511.739647
+e302019511.874682
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/search.png
+xsearch.png
+lSLF07#2@64"CopyPNGFile build/Debug-iphoneos/FTTSH.app/search.png search.png302019511#302019511#0(0"0(0#0#40"/Users/smartkit/Desktop/FTTSH/search.png4300885448#531"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/search.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/search.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/us.png us.png
+s302019511.874783
+e302019512.021569
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/us.png
+xus.png
+lSLF07#2@56"CopyPNGFile build/Debug-iphoneos/FTTSH.app/us.png us.png302019511#302019512#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/us.png4300885448#523"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/us.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/us.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/you.png you.png
+s302019512.021669
+e302019512.167211
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/you.png
+xyou.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/FTTSH.app/you.png you.png302019512#302019512#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/you.png4300885448#525"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/you.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/you.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/yu.png yu.png
+s302019512.167313
+e302019512.305519
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/yu.png
+xyu.png
+lSLF07#2@56"CopyPNGFile build/Debug-iphoneos/FTTSH.app/yu.png yu.png302019512#302019512#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/yu.png4300885448#523"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/yu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/yu.png0#
+
+CCopyPNGFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/zhu.png zhu.png
+s302019512.305776
+e302019512.447247
+r1
+xCopyPNGFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/zhu.png
+xzhu.png
+lSLF07#2@58"CopyPNGFile build/Debug-iphoneos/FTTSH.app/zhu.png zhu.png302019512#302019512#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/zhu.png4300885448#525"    cd /Users/smartkit/Desktop/FTTSH    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/smartkit/Desktop/FTTSH/zhu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/zhu.png0#
+
+CCpResource build/Debug-iphoneos/FTTSH.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+s302019505.331553
+e302019505.533507
+r1
+xCpResource
+xbuild/Debug-iphoneos/FTTSH.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist302019505#302019505#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist4300885448#462"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app0#
+
+CCpResource build/Debug-iphoneos/FTTSH.app/hu.gif hu.gif
+s302019510.978603
+e302019511.004235
+r1
+xCpResource
+xbuild/Debug-iphoneos/FTTSH.app/hu.gif
+xhu.gif
+lSLF07#2@11"Copy hu.gif302019510#302019511#0(0"0(0#0#36"/Users/smartkit/Desktop/FTTSH/hu.gif4300885448#407"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/hu.gif /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app0#
+
+CDataModelCompile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/CoreData.mom /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
+s302019519.482494
+e302019519.791111
+r1
+xDataModelCompile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/CoreData.mom
+x/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
+lSLF07#2@58"Compile /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel302019519#302019519#0(0"0(0#0#50"/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel4300885448#343"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/CoreData.mom0#
+
+CGenerateDSYMFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app.dSYM /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH
+s302019524.073831
+e302019524.209033
+r1
+xGenerateDSYMFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app.dSYM
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH
+lSLF07#2@89"GenerateDSYMFile build/Debug-iphoneos/FTTSH.app.dSYM build/Debug-iphoneos/FTTSH.app/FTTSH302019524#302019524#0(0"0(0#0#66"/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH4300885448#329"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app.dSYM0#
+
+CLd /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH normal armv6
+s302019523.231152
+e302019524.073711
+r1
+xLd
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH
+xnormal
+xarmv6
+lSLF07#2@71"Link /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH302019523#302019524#0(0"0(0#0#0"4300885448#840"    cd /Users/smartkit/Desktop/FTTSH    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.3    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -L/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -filelist /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/Objects-normal/armv6/FTTSH.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.3 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/FTTSH0#
+
+CProcessInfoPlistFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/Info.plist FTTSH-Info.plist
+s302019505.335671
+e302019505.519532
+r1
+xProcessInfoPlistFile
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/Info.plist
+xFTTSH-Info.plist
+lSLF07#2@24"Process FTTSH-Info.plist302019505#302019505#0(0"0(0#0#46"/Users/smartkit/Desktop/FTTSH/FTTSH-Info.plist4300885448#518"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility FTTSH-Info.plist -genpkginfo /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/ResourceRules.plist -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app/Info.plist0#
+
+CProcessPCH /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch.gch FTTSH_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s302019517.952756
+e302019519.481941
+r1
+xProcessPCH
+x/var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch.gch
+xFTTSH_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile FTTSH_Prefix.pch302019517#302019519#0(0"0(0#0#46"/Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch4300885448#1498"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.3 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources/armv6 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphoneos/FTTSH.build/DerivedSources -c /Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch -o /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-fmynwvvzpfhkzjeaihjxvbgmvyfs/FTTSH_Prefix.pch.gch0#
+
+CTouch /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+s302019524.209154
+e302019524.224618
+r1
+xTouch
+x/Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app
+lSLF07#2@66"Touch /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app302019524#302019524#0(0"0(0#0#0"4300885448#244"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/FTTSH/build/Debug-iphoneos/FTTSH.app0#
+

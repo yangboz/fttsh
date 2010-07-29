@@ -1,7 +1,7 @@
 TFTTSH
 v7
 r0
-t301979557.303029
+t302062645.345374
 cCheck dependencies
 cProcessInfoPlistFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist FTTSH-Info.plist
 cCompileXIB /Users/smartkit/Desktop/FTTSH/MainWindow.xib
@@ -38,6 +38,12 @@ cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i38
 cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/SearchViewController.o /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FavouriteViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/LocationViewController.o /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NeighborhoodInfo.o /Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o /Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o /Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o /Users/smartkit/Desktop/FTTSH/Classes/POICategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o /Users/smartkit/Desktop/FTTSH/Classes/POIImages.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o /Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH normal i386
 cGenerateDSYMFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
 cTouch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
@@ -46,6 +52,16 @@ N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1
 c000000004B89F97400000000000000EE
 t1267333492
 s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004B2B4E070000000000185440
+t1261129223
+s1594432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004B2B4DFB000000000000046B
+t1261129211
+s1131
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000004B2B4CC3000000000026EE30
@@ -72,22 +88,58 @@ c000000004B2B62B500000000016721E0
 t1261134517
 s23536096
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004B2B49D500000000000C4CF0
+t1261128149
+s806128
+
 N/Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m
 c000000004C4F9DDF0000000000000578
 t1280286175
 s1400
 i"GuideViewController.h"
 
+N/Users/smartkit/Desktop/FTTSH/Classes/../POICategory.m
+c000000004C50355D000000000000015D
+t1280324957
+s349
+i"POICategory.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/../POIImages.m
+c00000000000000000000000000000000
+t2
+s0
+i"POIImages.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/../POIInfo.m
+c00000000000000000000000000000000
+t2
+s0
+i"POIInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/../POINeighborhood.m
+c000000004C503B1C000000000000011E
+t1280326428
+s286
+i"POINeighborhood.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/../UserInfo.m
+c00000000000000000000000000000000
+t2
+s0
+i"UserInfo.h"
+
 N/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h
-c000000004C4F9DD500000000000001D4
-t1280286165
-s468
+c000000004C50E45800000000000003D8
+t1280369752
+s984
 i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
 
 N/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m
-c000000004C4F9DD50000000000000802
-t1280286165
-s2050
+c000000004C50E4AF0000000000001780
+t1280369839
+s6016
 i"FTTSHAppDelegate.h"
 
 N/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.h
@@ -114,8 +166,8 @@ s233
 i<UIKit/UIKit.h>
 
 N/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m
-c000000004C4F9DD500000000000005AE
-t1280286165
+c000000004C50313F00000000000005AE
+t1280323903
 s1454
 i"FirstViewController.h"
 
@@ -126,9 +178,9 @@ s239
 i<UIKit/UIKit.h>
 
 N/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m
-c000000004C4F9DD50000000000000581
-t1280286165
-s1409
+c000000004C50E2120000000000000583
+t1280369170
+s1411
 i"LocationViewController.h"
 
 N/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.xib
@@ -153,6 +205,66 @@ c000000004C4F9DD50000000000001877
 t1280286165
 s6263
 
+N/Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.h
+c000000004C50D51100000000000001A6
+t1280365841
+s422
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m
+c000000004C50D5110000000000000130
+t1280365841
+s304
+i"NeighborhoodInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POICategory.h
+c000000004C50D5110000000000000218
+t1280365841
+s536
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POICategory.m
+c000000004C50D511000000000000015D
+t1280365841
+s349
+i"POICategory.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIImages.h
+c000000004C50D51100000000000001B7
+t1280365841
+s439
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIImages.m
+c000000004C50D511000000000000011A
+t1280365841
+s282
+i"POIImages.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIInfo.h
+c000000004C50D5110000000000000469
+t1280365841
+s1129
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m
+c000000004C50D511000000000000022A
+t1280365841
+s554
+i"POIInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.h
+c000000004C50D5110000000000000195
+t1280365841
+s405
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m
+c000000004C50D511000000000000011E
+t1280365841
+s286
+i"POINeighborhood.h"
+
 N/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.h
 c000000004C4F9DD500000000000000EB
 t1280286165
@@ -170,10 +282,27 @@ c000000004C4F9DD50000000000001877
 t1280286165
 s6263
 
+N/Users/smartkit/Desktop/FTTSH/Classes/UserInfo.h
+c000000004C50D5110000000000000179
+t1280365841
+s377
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m
+c000000004C50D51100000000000000FB
+t1280365841
+s251
+i"UserInfo.h"
+
 N/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
-c000000004C4F9E9A00000000000000AA
-t1280286362
+c000000004C50E3AA00000000000000AA
+t1280369578
 s170
+
+N/Users/smartkit/Desktop/FTTSH/FTTSH_DB.db
+c000000004C331D1F000000000000B000
+t1278418207
+s45056
 
 N/Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch
 c000000004C4F9DE000000000000000B3
@@ -195,42 +324,106 @@ s1400
 i"GuideViewController.h"
 
 N/Users/smartkit/Desktop/FTTSH/GuideViewController.xib
-c000000004C4F9F8D0000000000008C74
-t1280286605
-s35956
+c000000004C4FA3240000000000008DAB
+t1280287524
+s36267
 
 N/Users/smartkit/Desktop/FTTSH/MainWindow.xib
 c000000004C4F9DE00000000000006C91
 t1280286176
 s27793
 
+N/Users/smartkit/Desktop/FTTSH/POICategory.h
+c000000004C50355D0000000000000218
+t1280324957
+s536
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/POICategory.m
+c000000004C50355D000000000000015D
+t1280324957
+s349
+i"POICategory.h"
+
+N/Users/smartkit/Desktop/FTTSH/POIImages.h
+c000000004C503B0100000000000001B7
+t1280326401
+s439
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/POIImages.m
+c000000004C50355D000000000000011A
+t1280324957
+s282
+i"POIImages.h"
+
+N/Users/smartkit/Desktop/FTTSH/POIInfo.h
+c000000004C503B120000000000000469
+t1280326418
+s1129
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/POIInfo.m
+c000000004C50355D000000000000022A
+t1280324957
+s554
+i"POIInfo.h"
+
+N/Users/smartkit/Desktop/FTTSH/POINeighborhood.h
+c000000004C503B1E0000000000000195
+t1280326430
+s405
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/POINeighborhood.m
+c000000004C50355D000000000000011E
+t1280324957
+s286
+i"POINeighborhood.h"
+
 N/Users/smartkit/Desktop/FTTSH/SecondView.xib
 c000000004C38905100000000000022ED
 t1278775377
 s8941
 
+N/Users/smartkit/Desktop/FTTSH/UserInfo.h
+c000000004C503B0F0000000000000179
+t1280326415
+s377
+i<CoreData/CoreData.h>
+
+N/Users/smartkit/Desktop/FTTSH/UserInfo.m
+c000000004C50355D00000000000000FB
+t1280324957
+s251
+i"UserInfo.h"
+
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
-t1280286757
+t1280369845
 s1088
 
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM
-t1280286333
+t1280369845
 s136
 
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/CoreData.mom
-t1280286363
+t1280369579
 s6142
 
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
-t1280286333
-s23028
+t1280369844
+s28824
+
+N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH_DB.db
+t2
+s0
 
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FavouriteViewController.nib
 t1280286166
 s1106
 
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/GuideViewController.nib
-t1280286757
+t1280325864
 s5472
 
 N/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist
@@ -334,20 +527,20 @@ t1280286319
 s2585
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSH.LinkFileList
-c000000004C4F9DD600000000000003D7
-t1280286166
-s983
+c000000004C50E3AB000000000000068F
+t1280369579
+s1679
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o
-t1280286330
-s40812
+t1280369843
+s49184
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FavouriteViewController.o
 t1280286331
 s29956
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o
-t1280286330
+t1280326627
 s29904
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/GuideViewController.o
@@ -355,16 +548,40 @@ t1280286330
 s31392
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/LocationViewController.o
-t1280286332
+t1280369584
 s29944
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NearbyViewController.o
 t1280286331
 s29920
 
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NeighborhoodInfo.o
+t1280369585
+s5244
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o
+t1280369586
+s5288
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o
+t1280369587
+s5204
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o
+t1280369587
+s5672
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o
+t1280369586
+s5204
+
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/SearchViewController.o
 t1280286331
 s29920
+
+N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o
+t1280369586
+s5176
 
 N/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o
 t1280286329
@@ -477,11 +694,11 @@ s917
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies301979552#301979552#0(0"0(0#1#0"7947009927035180032#0"0#
+lSLF07#2@18"Check dependencies302062641#302062641#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301979129.456169
-e301979130.023768
+s302062641.243626
+e302062644.065075
 r1
 xCompileC
 xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o
@@ -490,7 +707,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@64"Compile /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m301979129#301979130#0(0"0(0#0#56"/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m4300885448#1752"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o0#
+lSLF07#2@64"Compile /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m302062641#302062644#0(0"0(0#0#56"/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m4300885448#1752"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSHAppDelegate.o0#
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FavouriteViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301979131.570920
@@ -506,8 +723,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@71"Compile /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m301979131#301979131#0(0"0(0#0#63"/Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m4300885448#1766"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FavouriteViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FavouriteViewController.o0#
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301979130.024022
-e301979130.396087
+s302019425.716243
+e302019427.213382
 r1
 xCompileC
 xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o
@@ -516,7 +733,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m301979130#301979130#0(0"0(0#0#59"/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m4300885448#1758"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o0#
+lSLF07#2@67"Compile /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m302019425#302019427#0(0"0(0#0#59"/Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m4300885448#1758"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/FirstViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FirstViewController.o0#
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/GuideViewController.o /Users/smartkit/Desktop/FTTSH/Classes/../GuideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301979130.396194
@@ -535,8 +752,8 @@ CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i38
 r0
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/LocationViewController.o /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s301979131.975366
-e301979132.348233
+s302062383.856205
+e302062384.714214
 r1
 xCompileC
 xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/LocationViewController.o
@@ -545,7 +762,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m301979131#301979132#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m4300885448#1764"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/LocationViewController.o0#
+lSLF07#2@70"Compile /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m302062383#302062384#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m8388925609680532480#1764"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/LocationViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/LocationViewController.o0#
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NearbyViewController.o /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301979130.772023
@@ -560,6 +777,95 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m301979130#301979131#0(0"0(0#0#60"/Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m4300885448#1760"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/NearbyViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NearbyViewController.o0#
 
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NeighborhoodInfo.o /Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302062384.714379
+e302062385.440716
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NeighborhoodInfo.o
+x/Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m302062384#302062385#0(0"0(0#0#56"/Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m4300885448#1752"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/NeighborhoodInfo.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/NeighborhoodInfo.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o /Users/smartkit/Desktop/FTTSH/Classes/../POICategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o /Users/smartkit/Desktop/FTTSH/Classes/POICategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302062386.551547
+e302062386.998971
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o
+x/Users/smartkit/Desktop/FTTSH/Classes/POICategory.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/smartkit/Desktop/FTTSH/Classes/POICategory.m302062386#302062387#0(0"0(0#0#51"/Users/smartkit/Desktop/FTTSH/Classes/POICategory.m4300885448#1742"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/POICategory.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POICategory.o /Users/smartkit/Desktop/FTTSH/POICategory.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o /Users/smartkit/Desktop/FTTSH/Classes/../POIImages.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o /Users/smartkit/Desktop/FTTSH/Classes/POIImages.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302062386.999344
+e302062387.432335
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o
+x/Users/smartkit/Desktop/FTTSH/Classes/POIImages.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/smartkit/Desktop/FTTSH/Classes/POIImages.m302062386#302062387#0(0"0(0#0#49"/Users/smartkit/Desktop/FTTSH/Classes/POIImages.m4300885448#1738"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/POIImages.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIImages.o /Users/smartkit/Desktop/FTTSH/POIImages.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o /Users/smartkit/Desktop/FTTSH/Classes/../POIInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o /Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302062387.432445
+e302062387.878535
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o
+x/Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m302062387#302062387#0(0"0(0#0#47"/Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m4300885448#1734"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/POIInfo.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POIInfo.o /Users/smartkit/Desktop/FTTSH/POIInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o /Users/smartkit/Desktop/FTTSH/Classes/../POINeighborhood.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o /Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302062385.440975
+e302062386.169469
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o
+x/Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m302062385#302062386#0(0"0(0#0#55"/Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m4300885448#1750"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/POINeighborhood.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/POINeighborhood.o /Users/smartkit/Desktop/FTTSH/POINeighborhood.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/SearchViewController.o /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301979131.173423
 e301979131.570667
@@ -572,6 +878,25 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@68"Compile /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m301979131#301979131#0(0"0(0#0#60"/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m4300885448#1760"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/SearchViewController.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o /Users/smartkit/Desktop/FTTSH/Classes/../UserInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o /Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s302062386.169600
+e302062386.551436
+r1
+xCompileC
+xbuild/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o
+x/Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m302062386#302062386#0(0"0(0#0#48"/Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m4300885448#1736"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -include /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch -c /Users/smartkit/Desktop/FTTSH/Classes/UserInfo.m -o /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o0#
+
+CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/UserInfo.o /Users/smartkit/Desktop/FTTSH/UserInfo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/main.o /Users/smartkit/Desktop/FTTSH/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s301979128.464592
@@ -619,13 +944,13 @@ x/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib
 lSLF07#2@43"CompileXIB Classes/SearchViewController.xib300508567#300508567#0(0"0(0#0#62"/Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib4300885448#481"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/SearchViewController.nib /Users/smartkit/Desktop/FTTSH/Classes/SearchViewController.xib0#
 
 CCompileXIB /Users/smartkit/Desktop/FTTSH/GuideViewController.xib
-s301979552.545717
-e301979557.213362
+s301980327.826368
+e301980330.525995
 r1
 xCompileXIB
 x/Users/smartkit/Desktop/FTTSH/GuideViewController.xib
-o2010-07-28 11:12:34.813 ibtool[456:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
-lSLF07#2@34"CompileXIB GuideViewController.xib301979552#301979557#0(121"2010-07-28 11:12:34.813 ibtool[456:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs0(0#0#53"/Users/smartkit/Desktop/FTTSH/GuideViewController.xib4300885448#471"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/GuideViewController.nib /Users/smartkit/Desktop/FTTSH/GuideViewController.xib0#
+o2010-07-28 11:25:29.512 ibtool[562:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+lSLF07#2@34"CompileXIB GuideViewController.xib301980327#301980330#0(121"2010-07-28 11:25:29.512 ibtool[562:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs0(0#0#53"/Users/smartkit/Desktop/FTTSH/GuideViewController.xib4300885448#471"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/GuideViewController.nib /Users/smartkit/Desktop/FTTSH/GuideViewController.xib0#
 
 CCompileXIB /Users/smartkit/Desktop/FTTSH/MainWindow.xib
 s301979113.786427
@@ -645,6 +970,9 @@ xCompileXIB
 x/Users/smartkit/Desktop/FTTSH/SecondView.xib
 oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
 lSLF07#2@25"CompileXIB SecondView.xib300468294#300468295#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#44"/Users/smartkit/Desktop/FTTSH/SecondView.xib4300885448#453"    cd /Users/smartkit/Desktop/FTTSH    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/SecondView.nib /Users/smartkit/Desktop/FTTSH/SecondView.xib0#
+
+CCpResource build/Debug-iphonesimulator/FTTSH.app/FTTSH_DB.db FTTSH_DB.db
+r0
 
 CCpResource build/Debug-iphonesimulator/FTTSH.app/chi.png chi.png
 s301979119.311625
@@ -809,32 +1137,32 @@ xzhu.png
 lSLF07#2@12"Copy zhu.png301979119#301979119#0(0"0(0#0#37"/Users/smartkit/Desktop/FTTSH/zhu.png4300885448#422"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/smartkit/Desktop/FTTSH/zhu.png /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
 
 CDataModelCompile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/CoreData.mom /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
-s301979163.442320
-e301979163.799628
+s302062379.635615
+e302062380.055773
 r1
 xDataModelCompile
 x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/CoreData.mom
 x/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel
-lSLF07#2@58"Compile /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel301979163#301979163#0(0"0(0#0#50"/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel4300885448#357"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/CoreData.mom0#
+lSLF07#2@58"Compile /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel302062379#302062380#0(0"0(0#0#50"/Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel32651513917341812#357"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/smartkit/Desktop/FTTSH/CoreData.xcdatamodel /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/CoreData.mom0#
 
 CGenerateDSYMFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
-s301979133.700817
-e301979133.874315
+s302062644.948556
+e302062645.282788
 r1
 xGenerateDSYMFile
 x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM
 x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
-lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/FTTSH.app.dSYM build/Debug-iphonesimulator/FTTSH.app/FTTSH301979133#301979133#0(0"0(0#0#73"/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH4300885448#350"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM0#
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/FTTSH.app.dSYM build/Debug-iphonesimulator/FTTSH.app/FTTSH302062644#302062645#0(0"0(0#0#73"/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH4300885448#350"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app.dSYM0#
 
 CLd /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH normal i386
-s301979132.348333
-e301979133.700571
+s302062644.066454
+e302062644.948448
 r1
 xLd
 x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH
 xnormal
 xi386
-lSLF07#2@78"Link /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH301979132#301979133#0(0"0(0#0#0"4300885448#809"    cd /Users/smartkit/Desktop/FTTSH    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSH.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH0#
+lSLF07#2@78"Link /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH302062644#302062644#0(0"0(0#0#0"4300885448#829"    cd /Users/smartkit/Desktop/FTTSH    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -filelist /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/Objects-normal/i386/FTTSH.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/FTTSH0#
 
 CProcessInfoPlistFile /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app/Info.plist FTTSH-Info.plist
 s301979552.504269
@@ -859,10 +1187,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@27"Precompile FTTSH_Prefix.pch301979121#301979128#0(0"0(0#0#46"/Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch4300885448#1623"    cd /Users/smartkit/Desktop/FTTSH    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-generated-files.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-own-target-headers.hmap -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-all-target-headers.hmap -iquote /Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/FTTSH-project-headers.hmap -F/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator -I/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/include -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources/i386 -I/Users/smartkit/Desktop/FTTSH/build/FTTSH.build/Debug-iphonesimulator/FTTSH.build/DerivedSources -c /Users/smartkit/Desktop/FTTSH/FTTSH_Prefix.pch -o /var/folders/Ic/IcXKU-tvF1WNG-J6+MG8PE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FTTSH_Prefix-gxdfmgesklauxobzqkbufshcynby/FTTSH_Prefix.pch.gch0#
 
 CTouch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
-s301979557.263309
-e301979557.302970
+s302062645.282888
+e302062645.345314
 r1
 xTouch
 x/Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app
-lSLF07#2@73"Touch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app301979557#301979557#0(0"0(0#0#0"4300885448#258"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
+lSLF07#2@73"Touch /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app302062645#302062645#0(0"0(0#0#0"4300885448#258"    cd /Users/smartkit/Desktop/FTTSH    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/smartkit/Desktop/FTTSH/build/Debug-iphonesimulator/FTTSH.app0#
 

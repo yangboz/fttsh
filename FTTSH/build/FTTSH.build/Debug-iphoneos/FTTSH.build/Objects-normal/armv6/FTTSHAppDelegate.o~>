@@ -1,0 +1,18 @@
+In file included from /Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:9:
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h:13: error: expected specifier-qualifier-list before 'NSManagedObjectModel'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h:14: error: expected specifier-qualifier-list before 'NSManagedObjectContext'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h:15: error: expected specifier-qualifier-list before 'NSPersistentStoreCoordinator'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h:21: error: expected specifier-qualifier-list before 'NSManagedObjectModel'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h:22: error: expected specifier-qualifier-list before 'NSManagedObjectContext'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.h:23: error: expected specifier-qualifier-list before 'NSPersistentStoreCoordinator'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m: In function '-[FTTSHAppDelegate applicationWillTerminate:]':
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:56: error: 'managedObjectContext' undeclared (first use in this function)
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:56: error: (Each undeclared identifier is reported only once
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:56: error: for each function it appears in.)
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:88: error: 'NSManagedObjectContext' undeclared (first use in this function)
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:88: error: expected expression before ')' token
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:173: error: expected declaration or statement at end of input
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m: At top level:
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:173: warning: '@end' missing in implementation context
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:173: warning: incomplete implementation of class 'FTTSHAppDelegate'
+/Users/smartkit/Desktop/FTTSH/Classes/FTTSHAppDelegate.m:173: warning: method definition for '-applicationDocumentsDirectory' not found

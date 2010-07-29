@@ -2,7 +2,7 @@
 //  POIImages.h
 //  FTTSH
 //
-//  Created by zhou Yangbo on 10-7-28.
+//  Created by zhou Yangbo on 10-7-29.
 //  Copyright 2010 Godpaper Lookbackon. All rights reserved.
 //
 
@@ -14,8 +14,8 @@
 }
 
 @property (nonatomic, retain) NSNumber * POIID;
-@property (nonatomic, retain) NSNumber * POIImagesPath;
 @property (nonatomic, retain) NSNumber * POIImagesID;
+@property (nonatomic, retain) NSNumber * POIImagesPath;
 @property (nonatomic, retain) NSNumber * POIImagesLevel;
 
 @end

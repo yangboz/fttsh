@@ -43,6 +43,13 @@
 		A46B31E611E8C80B0061F7F1 /* zhu.png in Resources */ = {isa = PBXBuildFile; fileRef = A46B31D511E8C80B0061F7F1 /* zhu.png */; };
 		A46EA02E11FFD0B80075AACE /* CoreData.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */; };
 		A46EA08911FFD78D0075AACE /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A46EA08811FFD78D0075AACE /* logo.png */; };
+		A47D239012010C91000D0F6C /* NeighborhoodInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D238512010C91000D0F6C /* NeighborhoodInfo.m */; };
+		A47D239112010C91000D0F6C /* POINeighborhood.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D238712010C91000D0F6C /* POINeighborhood.m */; };
+		A47D239212010C91000D0F6C /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D238912010C91000D0F6C /* UserInfo.m */; };
+		A47D239312010C91000D0F6C /* POICategory.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D238B12010C91000D0F6C /* POICategory.m */; };
+		A47D239412010C91000D0F6C /* POIImages.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D238D12010C91000D0F6C /* POIImages.m */; };
+		A47D239512010C91000D0F6C /* POIInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A47D238F12010C91000D0F6C /* POIInfo.m */; };
+		A47D23A9120119E6000D0F6C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47D23A8120119E6000D0F6C /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +99,19 @@
 		A46B31D511E8C80B0061F7F1 /* zhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhu.png; sourceTree = "<group>"; };
 		A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		A46EA08811FFD78D0075AACE /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		A47D238412010C91000D0F6C /* NeighborhoodInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeighborhoodInfo.h; sourceTree = "<group>"; };
+		A47D238512010C91000D0F6C /* NeighborhoodInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighborhoodInfo.m; sourceTree = "<group>"; };
+		A47D238612010C91000D0F6C /* POINeighborhood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POINeighborhood.h; sourceTree = "<group>"; };
+		A47D238712010C91000D0F6C /* POINeighborhood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POINeighborhood.m; sourceTree = "<group>"; };
+		A47D238812010C91000D0F6C /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		A47D238912010C91000D0F6C /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		A47D238A12010C91000D0F6C /* POICategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POICategory.h; sourceTree = "<group>"; };
+		A47D238B12010C91000D0F6C /* POICategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POICategory.m; sourceTree = "<group>"; };
+		A47D238C12010C91000D0F6C /* POIImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIImages.h; sourceTree = "<group>"; };
+		A47D238D12010C91000D0F6C /* POIImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIImages.m; sourceTree = "<group>"; };
+		A47D238E12010C91000D0F6C /* POIInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIInfo.h; sourceTree = "<group>"; };
+		A47D238F12010C91000D0F6C /* POIInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIInfo.m; sourceTree = "<group>"; };
+		A47D23A8120119E6000D0F6C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +122,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				A47D23A9120119E6000D0F6C /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +132,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A47D238112010C6F000D0F6C /* modelEntity */,
 				A468E8DC11E960C000757DE6 /* GuideViewController.h */,
 				A468E8DD11E960C000757DE6 /* GuideViewController.m */,
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
@@ -180,6 +202,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				A47D23A8120119E6000D0F6C /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,6 +246,25 @@
 				A46EA02D11FFD0B80075AACE /* CoreData.xcdatamodel */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A47D238112010C6F000D0F6C /* modelEntity */ = {
+			isa = PBXGroup;
+			children = (
+				A47D238412010C91000D0F6C /* NeighborhoodInfo.h */,
+				A47D238512010C91000D0F6C /* NeighborhoodInfo.m */,
+				A47D238612010C91000D0F6C /* POINeighborhood.h */,
+				A47D238712010C91000D0F6C /* POINeighborhood.m */,
+				A47D238812010C91000D0F6C /* UserInfo.h */,
+				A47D238912010C91000D0F6C /* UserInfo.m */,
+				A47D238A12010C91000D0F6C /* POICategory.h */,
+				A47D238B12010C91000D0F6C /* POICategory.m */,
+				A47D238C12010C91000D0F6C /* POIImages.h */,
+				A47D238D12010C91000D0F6C /* POIImages.m */,
+				A47D238E12010C91000D0F6C /* POIInfo.h */,
+				A47D238F12010C91000D0F6C /* POIInfo.m */,
+			);
+			name = modelEntity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +352,12 @@
 				A468E96611E9653600757DE6 /* FavouriteViewController.m in Sources */,
 				A468E96B11E9655000757DE6 /* LocationViewController.m in Sources */,
 				A46EA02E11FFD0B80075AACE /* CoreData.xcdatamodel in Sources */,
+				A47D239012010C91000D0F6C /* NeighborhoodInfo.m in Sources */,
+				A47D239112010C91000D0F6C /* POINeighborhood.m in Sources */,
+				A47D239212010C91000D0F6C /* UserInfo.m in Sources */,
+				A47D239312010C91000D0F6C /* POICategory.m in Sources */,
+				A47D239412010C91000D0F6C /* POIImages.m in Sources */,
+				A47D239512010C91000D0F6C /* POIInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
